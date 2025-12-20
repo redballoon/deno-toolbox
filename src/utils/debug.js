@@ -2,5 +2,5 @@
 import { debug } from 'https://deno.land/x/debug/mod.ts'
 
 export default (name) => {
-  return debug(`Deno-Toolbox::${name}`)
+  return debug(`Toolbox::${name}`)
 }

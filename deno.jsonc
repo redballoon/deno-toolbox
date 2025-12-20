@@ -27,7 +27,7 @@
   },
   "tasks": {
     "lint": "deno lint && deno fmt --check",
-    "test": "deno test --allow-env=DEBUG --allow-read=./ --allow-write=./",
+    "test": "deno test --allow-env='DEBUG,__TESTING_MKDIRP_*' --allow-read=./ --allow-write=./",
     "publish:dry": "deno publish --dry-run --allow-slow-types"
   },
   "imports": {
